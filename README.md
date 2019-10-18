@@ -11,14 +11,14 @@ To install the toolchain use the following commands:
 
 ```
 cd /opt/esp
-sudo git clone https://github.com/gschorcht/xtensa-lx106-elf
+sudo git clone https://github.com/gschorcht/xtensa-esp8266-elf
 ```
 
 After the installation, the components of the toolchain are installed in directory `/opt/esp`. Of course, you can use any other location for the installation, e.g., `/path/to/toolchains` with following commands:
 
 ```
 cd /path/to/toolchains
-sudo git clone https://github.com/gschorcht/xtensa-lx106-elf
+sudo git clone https://github.com/gschorcht/xtensa-esp8266-elf
 ```
 
 ## Usage
@@ -26,13 +26,13 @@ sudo git clone https://github.com/gschorcht/xtensa-lx106-elf
 To use the toolchain, you have to add the path of the binaries to your `PATH` variable according to your toolchain location:
 
 ```
-export PATH=/path/to/toolchains/xtensa-lx106-elf/bin:$PATH
+export PATH=/path/to/toolchains/xtensa-esp8266-elf/bin:$PATH
 ```
 
 For the default installation in `/opt/esp` this would be:
 
 ```
-export PATH=/opt/esp/xtensa-lx106-elf/bin:$PATH
+export PATH=/opt/esp/xtensa-esp8266-elf/bin:$PATH
 ```
 
 ## Copyrights
